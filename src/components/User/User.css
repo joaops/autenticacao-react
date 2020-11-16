@@ -1,0 +1,131 @@
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.userForm {
+    background-color: #242526;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #393A3B;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleUserForm {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 12px auto;
+}
+
+.inputUserForm {
+    margin: 0 16px 12px 16px;
+    background: #3A3B3C;
+    color: #E4E6EB;
+    border: none;
+    outline-width: 0;
+    height: 40px;
+    padding: 0px 16px;
+    border-radius: 20px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.inputDisabledUserForm {
+    color: #8D8F93;
+}
+
+.inputUserForm::placeholder {
+    color: #B0B3B8;
+}
+
+.buttonUserForm {
+    height: 35px;
+    border: none;
+    margin: 0 16px 12px 16px;
+    border-radius: 6px;
+    background: #2D8834;
+    color: #E4E6EB;
+    cursor: pointer;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    outline: none;
+}
+
+.buttonUserForm:hover {
+    background: #32A03B;
+}
+
+.successMessageUserForm {
+    color: #32A03B;
+    font-size: 16px;
+    margin: 0 auto 12px auto;
+    padding: 0px 16px;
+}
+
+.errorMessageUserForm {
+    color: #F02849;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 auto 12px auto;
+    padding: 0px 16px;
+}
+
+.deleteUserContainer {
+    background-color: #242526;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #393A3B;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.titleDeleteUserContainer {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 12px auto;
+}
+
+.textDeleteUserContainer {
+    margin: auto 16px;
+}
+
+.checkboxDeleteUserContainer {
+    margin: 12px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonDeleteUserContainer {
+    height: 35px;
+    border: none;
+    margin: 0 16px 12px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    outline: none;
+    background-color:  #E4E6EB;
+    color: #18191A;
+}
+
+.buttonDeleteUserContainer:hover {
+    background-color:  #FFF;
+}
+
+.buttonDeleteUserContainer:disabled {
+    background-color:  #626262;
+}
+
+.deleteAccountMessageError {
+    color: #F02849;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 auto 12px auto;
+    padding: 0px 16px;
+}

@@ -1,0 +1,68 @@
+.dropdownMenu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownMenuIcon {
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.dropdownMenuIcon:hover {
+    background-color: #3A3B3C;
+}
+
+.dropdownMenuContent {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    min-width: 300px;
+    z-index: 1;
+    background-color: #242526;
+    border-radius: 8px;
+    border: 1px solid #393A3B;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.dropdownMenuItem {
+    height: 52px;
+    margin: 0px 8px;
+    padding: 0px 8px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    color: #E4E6EB;
+    text-decoration: none;
+}
+
+.dropdownMenuItem:hover {
+    background-color: #3A3B3C;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dropdownMenuPerfil {
+    color: #E4E6EB;
+    text-decoration: none;
+    height: 75px;
+    margin: 0px 8px;
+    padding: 0px 8px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.dropdownMenuPerfil:hover {
+    background-color: #3A3B3C;
+}
